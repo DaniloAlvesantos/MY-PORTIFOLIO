@@ -1,0 +1,75 @@
+:root {
+    --red:#D00000;
+    --dark-turquoise:#1CCAD8;
+    --rich-black:#111111;
+    --USAFA-blue:#0353A4;
+    --rich-white:#EEE5E5;
+    --white:#ffffff;
+    --rich-black-fogra:#000411;
+}
+
+.contianer_main{
+    background:var(--rich-black);
+    width:100vw;
+    height:28rem;
+    display: flex;
+    color:var(--rich-white);
+}
+
+#titulo{
+    color:var(--USAFA-blue);
+    font-size:5rem;
+    margin-bottom:0.7rem;
+}
+
+.txt {
+    font-size:1.3rem;
+}
+
+.txt strong {
+    color:var(--dark-turquoise);
+}
+
+.txt_sec {
+    font-size:1.3rem;
+    margin:3rem;
+    margin-top:7rem;
+    margin-left:8rem;
+}
+
+.txt_sec strong {
+    color: var(--dark-turquoise);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+    margin:2rem;
+}
+
+.container_perfil {
+    width:18rem;
+    height:18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+}
+
+#perfil {
+    border-radius: 50%;
+    display: block;
+    margin-left:12rem;
+}
+
+.container_skills{
+    position: absolute;
+    top:33rem;
+    left:36rem;
+}
+
+.container_skills h4 {
+    font-size:4rem;
+    color: var(--USAFA-blue);
+}

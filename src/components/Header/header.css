@@ -1,0 +1,40 @@
+:root {
+    --red:#D00000;
+    --dark-turquoise:#1CCAD8;
+    --rich-black:#111111;
+    --USAFA-blue:#0353A4;
+    --rich-white:#EEE5E5;
+    --white:#ffffff;
+    --rich-black-fogra:#000411;
+}
+
+.container {
+    background: url("https://images.alphacoders.com/779/thumb-1920-779314.jpg") no-repeat 80% fixed;
+    width:100vw;
+    height:25rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_items {
+    margin-top:5rem;
+}
+
+.container_nav{
+    display:inline-flex;
+    list-style: none;
+}
+
+.lista {
+    list-style: none;
+    
+    display: inline-flex;
+    padding:1rem;
+    padding-left:0.8rem;
+}
+
+.lista a {
+    text-decoration: none;
+    color:var(--rich-white);
+}
