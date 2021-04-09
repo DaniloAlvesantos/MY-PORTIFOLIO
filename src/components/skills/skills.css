@@ -1,0 +1,12 @@
+.skills {
+    display: inline-flex;
+    margin-top:-2rem;
+}
+
+.skills li {
+    display: inline-flex;
+}
+
+.skills_items {
+    margin:0.7rem;
+}

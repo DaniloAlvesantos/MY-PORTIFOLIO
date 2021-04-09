@@ -11,7 +11,7 @@
 .container {
     background: url("https://images.alphacoders.com/779/thumb-1920-779314.jpg") no-repeat 80% fixed;
     width:100vw;
-    height:25rem;
+    height:27rem;
     align-items: center;
     justify-content: center;
 
@@ -24,6 +24,9 @@
 .container_nav{
     display:inline-flex;
     list-style: none;
+    position: absolute;
+    top:2.5rem;
+    left:27rem;
 }
 
 .lista {

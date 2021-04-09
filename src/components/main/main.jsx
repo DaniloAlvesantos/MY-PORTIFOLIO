@@ -11,7 +11,7 @@ export default function Main() {
                     <p className="txt">Sou Danilo,desenvolvedor web,eu sou <strong>Front-end</strong> em geral.Tenho 8 meses de experiencia,ainda sou junior,mas gosto de desafios.Eu gosto muito de programacao,voce ver seu aplicativo ou site funcionando e muito bom</p>
                 </section>
                 <div className="container_perfil" >
-                    <img id="perfil" src={Perfil} alt=""/>
+                    <img id="perfil" src={Perfil} alt="profille"/>
                 </div>
                 <p className="txt_sec">
                     Eu possuo certificados dos cursos feitos.
